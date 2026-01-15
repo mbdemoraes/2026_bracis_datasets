@@ -1,0 +1,9 @@
+,model__estimator__subsample,model__estimator__n_estimators,model__estimator__max_depth,model__estimator__learning_rate,model__estimator__colsample_bytree,model__estimator__kernel,model__estimator__C,model__n_estimators,model__max_depth,model__estimator__alpha,model__estimator__l1_ratio,model__estimator__n_neighbors
+XGBoost,1.0,200.0,7.0,0.1,1.0,,,,,,,
+SVM,,,,,,linear,50,,,,,
+RF,,,,,,,,200.0,,,,
+GB,,200.0,,0.1,,,,,,,,
+Ridge,,,,,,,,,,10.0,,
+Lasso,,,,,,,,,,1.0,,
+ElasticNet,,,,,,,,,,0.01,0.9,
+KNN,,,,,,,,,,,,3.0
