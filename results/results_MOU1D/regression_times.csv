@@ -1,0 +1,11 @@
+,search_time_min,cv_time_min,total_time_min
+RF,5.58,8.81,14.4
+GB,2.63,4.3,6.93
+SVR,119.59,60.8,180.39
+Ridge,0.04,0.02,0.06
+Lasso,0.21,0.07,0.28
+ElasticNet,0.51,0.09,0.6
+KNN,0.32,0.12,0.44
+CatBoost,3.81,2.23,6.03
+XGBoost,1.65,0.31,1.96
+LightGBM,3.8,0.41,4.21
