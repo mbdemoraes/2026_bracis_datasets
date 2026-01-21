@@ -1,0 +1,6 @@
+,n_layers,units_0,activation_0,l2,batch_norm,dropout,optimizer,lr,units_1,activation_1,units_2,activation_2
+fold_1,3,320,swish,0.0001,True,0.4,rmsprop,0.01,64,relu,64,relu
+fold_2,1,448,relu,0.0,True,0.4,rmsprop,0.01,320,swish,320,gelu
+fold_3,3,64,tanh,0.0,False,0.2,rmsprop,0.01,448,relu,64,swish
+fold_4,2,384,swish,0.0001,False,0.1,adam,0.01,64,swish,320,swish
+fold_5,2,320,gelu,0.0,True,0.2,adam,0.01,256,gelu,448,tanh
