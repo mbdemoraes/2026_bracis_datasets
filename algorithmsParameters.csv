@@ -1,12 +1,12 @@
-Algorithm;Model;Hyperparameters (Search Space)
-RF;Random Forest Regressor;"n_estimators ? {100, 200}; max_depth ? {5, 10, None}"
-GB;Gradient Boosting Regressor;"n_estimators ? {100, 200}; learning_rate ? {0.05, 0.1}"
-SVR;Support Vector Regressor;"C ? {0.1, 1, 10, 50}; kernel ? {linear, rbf}; ? ? {scale, auto}"
-Ridge;Ridge Regression;? ? {0.1, 1, 10}
-Lasso;Lasso Regression;"? ? {0.01, 0.1, 1}; max_iter=5000"
-ElasticNet;Elastic Net Regression;"? ? {0.01, 0.1, 1}; l1_ratio ? {0.1, 0.5, 0.9}; max_iter=5000"
-KNN;k-Nearest Neighbors Regressor;n_neighbors ? {3, 5, 7}
-CatBoost;CatBoost Regressor;"iterations ? {300, 500}; learning_rate ? {0.01, 0.05, 0.1}; depth ? {6, 8, 10}; l2_leaf_reg ? {1, 3, 5}"
-XGBoost;XGBoost Regressor;"n_estimators ? {200, 400}; max_depth ? {3, 5, 7}; learning_rate ? {0.01, 0.05, 0.1}; subsample ? {0.8, 1.0}; colsample_bytree ? {0.8, 1.0}"
-LightGBM;LightGBM Regressor;"n_estimators ? {200, 400}; learning_rate ? {0.01, 0.05, 0.1}; max_depth ? {-1, 5, 10}; num_leaves ? {31, 63, 127}; subsample ? {0.8, 1.0}; colsample_bytree ? {0.8, 1.0}"
-MLP ;Multilayer Perceptron;"n_layers ? {1, 2, 3}; units ? {64,�,512}; activation ? {relu, tanh, swish, gelu}; L2 ? {0, 1e?4, 1e?3}; batch_norm ? {True, False}; dropout ? [0.0, 0.5]; optimizer ? {Adam, RMSprop}; learning_rate ? {1e?2, 5e?3, 1e?3, 5e?4, 1e?4}"
+,Algorithm,Model,Hyperparameters (Search Space)
+0,RF,Random Forest Regressor,"n_estimators ∈ {100, 200}; max_depth ∈ {5, 10, None}"
+1,GB,Gradient Boosting Regressor,"n_estimators ∈ {100, 200}; learning_rate ∈ {0.05, 0.1}"
+2,SVR,Support Vector Regressor,"C ∈ {0.1, 1, 10, 50}; kernel ∈ {linear, rbf}; γ ∈ {scale, auto}"
+3,Ridge,Ridge Regression,"α ∈ {0.1, 1, 10}"
+4,Lasso,Lasso Regression,"α ∈ {0.01, 0.1, 1}; max_iter=5000"
+5,ElasticNet,Elastic Net Regression,"α ∈ {0.01, 0.1, 1}; l1_ratio ∈ {0.1, 0.5, 0.9}; max_iter=5000"
+6,KNN,k-Nearest Neighbors Regressor,"n_neighbors ∈ {3, 5, 7}"
+7,CatBoost,CatBoost Regressor,"iterations ∈ {300, 500}; learning_rate ∈ {0.01, 0.05, 0.1}; depth ∈ {6, 8, 10}; l2_leaf_reg ∈ {1, 3, 5}"
+8,XGBoost,XGBoost Regressor,"n_estimators ∈ {200, 400}; max_depth ∈ {3, 5, 7}; learning_rate ∈ {0.01, 0.05, 0.1}; subsample ∈ {0.8, 1.0}; colsample_bytree ∈ {0.8, 1.0}"
+9,LightGBM,LightGBM Regressor,"n_estimators ∈ {200, 400}; learning_rate ∈ {0.01, 0.05, 0.1}; max_depth ∈ {-1, 5, 10}; num_leaves ∈ {31, 63, 127}; subsample ∈ {0.8, 1.0}; colsample_bytree ∈ {0.8, 1.0}"
+10,MLP ,Multilayer Perceptron,"n_layers ∈ {1, 2, 3}; units ∈ {64,…,512}; activation ∈ {relu, tanh, swish, gelu}; L2 ∈ {0, 1e−4, 1e−3}; batch_norm ∈ {True, False}; dropout ∈ [0.0, 0.5]; optimizer ∈ {Adam, RMSprop}; learning_rate ∈ {1e−2, 5e−3, 1e−3, 5e−4, 1e−4}"
