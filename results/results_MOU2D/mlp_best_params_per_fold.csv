@@ -1,6 +1,6 @@
 ,n_layers,units_0,activation_0,l2,batch_norm,dropout,optimizer,lr,units_1,activation_1,units_2,activation_2
-fold_1,3,448,swish,0.0,True,0.2,rmsprop,0.01,256,swish,512,swish
-fold_2,2,256,gelu,0.0,False,0.0,adam,0.005,448,swish,384,swish
-fold_3,2,512,relu,0.001,True,0.30000000000000004,rmsprop,0.01,320,tanh,,
-fold_4,2,320,tanh,0.0001,False,0.0,rmsprop,0.01,384,swish,128,swish
-fold_5,3,384,relu,0.0,False,0.0,adam,0.005,320,swish,320,gelu
+fold_1,2,512,swish,0.0001,False,0.30000000000000004,adam,0.001,64,relu,,
+fold_2,3,384,swish,0.001,False,0.1,adam,0.005,64,relu,64,relu
+fold_3,3,192,relu,0.001,False,0.0,rmsprop,0.001,448,tanh,320,swish
+fold_4,2,128,tanh,0.0001,False,0.0,adam,0.01,128,relu,64,gelu
+fold_5,3,384,gelu,0.0,False,0.0,adam,0.01,384,swish,128,swish
