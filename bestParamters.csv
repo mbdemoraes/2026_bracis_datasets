@@ -1,0 +1,15 @@
+Model,MOU1D,MOU2D
+RF,"n_estimators=200","Same as MOU1D"
+GB,"n_estimators=200, learning_rate=0.1","Same as MOU1D"
+SVR,"kernel=linear, gamma=auto, C=50","Same as MOU1D"
+Ridge,"alpha=10","Same as MOU1D"
+Lasso,"alpha=1, max_iter=5000","Same as MOU1D"
+Elastic Net,"alpha=0.01, l1_ratio=0.9, max_iter=5000","alpha=0.01, l1_ratio=0.1, max_iter=5000"
+KNN,"n_neighbors=3","Same as MOU1D"
+CatBoost,"learning_rate=0.1, l2_leaf_reg=3, iterations=500, depth=8","Same as MOU1D"
+XGBoost,"n_estimators=400, learning_rate=0.1, subsample=0.8, max_depth=7, colsample_bytree=0.8","Same as MOU1D"
+LightGBM,"n_estimators=400, learning_rate=0.1, subsample=1, max_depth=10, colsample_bytree=1, num_leaves=63","Same as MOU1D"
+MLP,"n_layers=3, units=(320,64,64), activation=(swish,relu,relu), l2=0.001, batch_norm=True, dropout=0.4, optimizer=0.01, lr=0.01","n_layers=3, units=(384,384,128), activation=(gelu,swish,swish), l2=0, batch_norm=False, dropout=0, optimizer=adam, lr=0.01"
+
+
+
