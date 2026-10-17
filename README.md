@@ -1,6 +1,6 @@
 # Two Large-Scale Oil and Gas Datasets for Multi-Output Regression Tasks
 
-This repository provides the MOU1D and MOU2D datasets for multi-output regression research. These datasets are intended to support the development, evaluation, and comparison of machine learning methods for multi-output regression tasks in the oil and gas domain. The datasets are in the `datasets` folder.
+This repository provides the MOU1D and MOU2D datasets for multi-output regression research. These datasets are intended to support the development, evaluation, and comparison of machine learning methods for multi-output regression tasks in the oil and gas domain. The datasets are in the `datasets` folder. This repository also contains the computational experimental setup and results of the original paper.
 
 ## Citation
 If you use these datasets in your research, please cite the following publication:
